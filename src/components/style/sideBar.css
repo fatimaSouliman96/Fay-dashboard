@@ -1,0 +1,16 @@
+.side-bar{
+    height: 98%;
+}
+.active{
+    background-color: #D7E6EA!important;
+    border-radius: 1rem;
+}
+
+ul li a:hover{
+    background-color: #D7E6EA;
+}
+@media (max-width: 766px ){
+    .side-bar{
+        display: none;
+    }
+}

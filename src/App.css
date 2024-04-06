@@ -1,0 +1,23 @@
+.app{
+    padding: 0.5rem;
+    background-color: #f2f3f4;
+    width: 100%;
+    min-height: 100vh;
+
+}
+.side-rigth{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+@media (max-width: 766px ){
+    .app .side-rigth{
+        width: 100%;
+        margin-left: 0!important;
+    }
+}

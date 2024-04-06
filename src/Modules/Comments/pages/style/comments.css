@@ -1,0 +1,15 @@
+.div-comments{
+    overflow-y: scroll;
+    width: 85%;
+    height: 30rem;
+}
+.div-comments::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 0.5rem;
+    border: 2px solid #D7E6EA;
+}
+.div-comments::-webkit-scrollbar-thumb{
+    width: 10px;
+    border-radius: 0.5rem;
+    background-color: #D7E6EA;
+}

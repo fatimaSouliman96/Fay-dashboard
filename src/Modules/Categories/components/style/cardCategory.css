@@ -1,0 +1,11 @@
+
+
+.card-category{
+    background-color: #D7E6EA;
+    border: 2px solid #babbbc;
+    cursor: pointer;
+}
+.card-category:hover{
+    border-color: #071321;
+    transition: 0.7s ease;
+}

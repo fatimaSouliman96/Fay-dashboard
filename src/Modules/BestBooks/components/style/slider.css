@@ -1,0 +1,16 @@
+
+.mySwiper {
+    width: 100%;
+    padding:2rem;
+  }
+  
+  .swiper-slide {
+    border-radius: 0.5rem;
+    width: 50%!important;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

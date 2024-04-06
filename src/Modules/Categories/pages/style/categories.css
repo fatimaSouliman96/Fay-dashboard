@@ -1,0 +1,38 @@
+.un-show{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    padding-top: 4rem;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(to right , #f2f3f4, rgba(0, 0, 0, 0.13) , #f2f3f4) ;
+    
+}
+.show-books{
+    display: flex!important;
+}
+
+.div-books{
+    overflow-y: scroll;
+    border: 0.5px solid #D7E6EA;
+}
+.div-books::-webkit-scrollbar{
+    width: 10px;
+    height: 20px;
+    border-radius: 0.5rem;
+}
+.div-books::-webkit-scrollbar-thumb{
+    width: 10px;
+    height: 50px;
+    background-color: #D7E6EA;
+    border-radius: 0.5rem;
+}
+.one-book{
+    background-color: #D7E6EA;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
