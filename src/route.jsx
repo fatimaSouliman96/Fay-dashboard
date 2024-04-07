@@ -11,7 +11,7 @@ import { signUpRouter } from "./pages/Authentication/routes/signUpRouter";
 
 export const router = createHashRouter ([
     {
-      path: "main",
+      path: "/main",
       element: <App />,
       children:[
         ...mainProductsRouter,
