@@ -17,6 +17,7 @@ export default function CardBook({ showPdf }) {
         <img src={bookImg} className='h-full w-1/4 rounded-lg' />
         <div className='flex flex-col gap-2 pl-2' >
         <h1 className='text-left text-bold text-4xl' >Title</h1>
+        <span className='text-left block text-gray-600 text-bold text-lg' >Category</span>
         <span className='text-left block text-gray-600 text-bold text-lg' >14 y - 25 y</span>
         <p className='p-2 text-left ' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ex fugit, quis consequatur eum consectetur. Sit ipsam debitis, aperiam aliquam, veritatis qua</p>
         </div>
