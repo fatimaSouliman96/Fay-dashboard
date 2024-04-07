@@ -4,7 +4,7 @@ import { singleCommentRouter } from "./singleCommentRouter";
 
 export const mainCommentsRouter = [
     {
-        path: "/comments",
+        path: "comments",
         element: <MainComments />,
         children: [
             ...commentsRouter,

@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function Books() {
   const navigate = useNavigate();
   return (
-    <div className='overflow-hidden' >
+    <div className='overflow-hidden pl-2' >
       <div className='w-full p-2 ' >
       <Slider />
       </div>

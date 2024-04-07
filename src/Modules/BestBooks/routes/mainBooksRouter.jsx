@@ -6,7 +6,7 @@ import { editRouter } from "./editRouter";
 
 export const mainBooksRouter = [
     {
-      path: "/best-selling-books",
+      path: "best-selling-books",
       element: <MainBooks />,
       children:[
         ...booksRouter,

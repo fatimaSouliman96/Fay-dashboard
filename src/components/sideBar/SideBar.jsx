@@ -8,11 +8,9 @@ import { BiBookContent, BiSolidCategory } from "react-icons/bi";
 import { FaComments } from "react-icons/fa";
 import { MdContactMail } from "react-icons/md";
 
-function SideBar({setNewArbic , arbic , setSection}) {
+function SideBar({ arbic , setSection}) {
     
-  const changeSection = (e) => {
-    setSection(e.target.innerText)
-  }
+
   return (
     <div className="side-bar p-3 w-1/6 bg-white shadow-lg rounded-2xl md:w-60 fixed"  >
       <h1 className={
@@ -52,7 +50,7 @@ function SideBar({setNewArbic , arbic , setSection}) {
                 }
                 
               )
-            } to="/" state={{arbic: arbic}} ><FaBookOpen style={{color:"#071321" , backgroundColor:"#D7E6EA" , padding:"0.5rem" , borderRadius:"0.5rem" }} size={35} />
+            } to="main" state={{arbic: arbic}} ><FaBookOpen style={{color:"#071321" , backgroundColor:"#D7E6EA" , padding:"0.5rem" , borderRadius:"0.5rem" }} size={35} />
             <h1>{
               arbic == true ? "المنجات" : "Products"
               }</h1>
@@ -68,7 +66,7 @@ function SideBar({setNewArbic , arbic , setSection}) {
                 }
                 
               )
-            } to="/categories" state={{arbic: arbic}}><BiSolidCategory style={{color:"#071321" , backgroundColor:"#D7E6EA" , padding:"0.5rem" , borderRadius:"0.5rem" }} size={35} />
+            } to="categories" state={{arbic: arbic}}><BiSolidCategory style={{color:"#071321" , backgroundColor:"#D7E6EA" , padding:"0.5rem" , borderRadius:"0.5rem" }} size={35} />
             <h1>{
               arbic == true ? "جدول" : "Categories"
               }</h1>
@@ -100,7 +98,7 @@ function SideBar({setNewArbic , arbic , setSection}) {
                 }
                 
               )
-            } to="/contact" state={{arbic: arbic}}>
+            } to="contact" state={{arbic: arbic}}>
               <MdContactMail style={{color:"#071321" , backgroundColor:"#D7E6EA" , padding:"0.5rem" , borderRadius:"0.5rem" }} size={35} />
             <h1>{
               arbic == true ? "جدول" : "Contact"
@@ -118,7 +116,7 @@ function SideBar({setNewArbic , arbic , setSection}) {
                 }
                 
               )
-            } to="/best-selling-books" state={{arbic: arbic}}>
+            } to="best-selling-books" state={{arbic: arbic}}>
               <BiBookContent style={{color:"#071321" , backgroundColor:"#D7E6EA" , padding:"0.5rem" , borderRadius:"0.5rem" }} size={35} />
             <h1>{
               arbic == true ? "جدول" : "Best Selling Books"

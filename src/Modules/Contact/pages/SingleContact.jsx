@@ -10,7 +10,7 @@ export default function SingleContact() {
 
   return (
     <>
-    <BiArrowFromLeft size={50} style={{cursor:"pointer" , float:"right" }} onClick={() => navigate("/contact")} />
+    <BiArrowFromLeft size={50} style={{cursor:"pointer" , float:"right" }} onClick={() => navigate("/main/contact/")} />
     <div className='w-1/2 comment flex flex-col m-auto mt-8 gap-4' >
       <header className='flex gap-3 ' >
         <BiUser size={50} style={{backgroundColor:"white" , padding:"0.2rem" , borderRadius:"50%"}} />

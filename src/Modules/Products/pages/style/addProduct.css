@@ -5,17 +5,36 @@
     margin-top: 1rem;
     border-radius: 0.5rem;
     cursor: pointer;
+    color: transparent;
 }
-.input-img::-webkit-file-upload-button{
+.btn-upload{
     position: absolute;
-    width: 100%;
+    width: 60%;
     border-radius: 0.5rem;
     background-color: #D7E6EA;
     color: #071321;
     font-weight: 500;
     border: none;
     cursor: pointer;
+    top: 7.2rem;
+    left: 0rem;
+    height: 1.5rem;
+    padding: 0.1px;
 }
+.input-img::-webkit-file-upload-button{
+    position: absolute;
+    width: 60%;
+    height: 1.5rem;
+    z-index: 2;
+    border-radius: 0.5rem;
+    background-color: transparent!important;
+    color: transparent!important;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    
+}
+
 .input-img::-webkit-file-upload-button:hover{
     border: 1px solid #071321;
     transition: 0.7s ease;

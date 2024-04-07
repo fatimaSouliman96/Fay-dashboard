@@ -53,7 +53,9 @@ export default function Example({ arbic }) {
                                                 alt="Fay Logo"
                                             />
                                             <h1 className="text-xl font-bold text-black " >
-                                                {location.pathname == "/" ? "Home" : location.pathname}
+                                                {location.pathname == "/main/main" ? "products" :
+                                                    location.pathname.includes("product")?
+                                                 "products/" + location.pathname.slice(6) : location.pathname.slice(6) }
                                             </h1>
                                         </div>
 

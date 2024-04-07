@@ -5,7 +5,7 @@ import { productsRouter } from "./productsRouter";
 
 export const mainProductsRouter = [
     {
-      path: "",
+      path: "main",
       element: <MainProducts />,
       children:[
         ...productsRouter,

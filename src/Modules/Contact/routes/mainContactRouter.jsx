@@ -4,7 +4,7 @@ import { singleContactRouter } from "./singleContactRouter";
 
 export const mainContactRouter = [
     {
-        path: "/contact",
+        path: "contact",
         element: <MainContact />,
         children: [
             ...contactRouter,
